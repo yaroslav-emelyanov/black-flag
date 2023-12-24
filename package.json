@@ -5,6 +5,7 @@
   "maintainers": [
     "Yaroslav Emelyanov"
   ],
+  "keywords": ["effector", "feature toggle", "feature flags"],
   "license": "MIT",
   "publishConfig": {
     "access": "public"
