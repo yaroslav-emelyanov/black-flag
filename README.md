@@ -1,20 +1,20 @@
-# black-flag
+# black-flags
 
 🏴‍☠️ Create feature flags stores using effector.
 
 ## Install
 
 ```sh
-npm install black-flag
+npm install black-flags
 # or
-pnpm add black-flag
+pnpm add black-flags
 ```
 
 ## Basic usage
 
 ```tsx
 import { createEvent, restore } from "effector";
-import { createFlags, Flags } from "black-flag";
+import { createFlags, Flags } from "black-flags";
 
 type FeatureFlags = Flags<{
   button: "text" | "icon";
@@ -45,7 +45,7 @@ flag("button"); // => Store<Flag<'text' | 'icon' | '__otherwise'>>
 ### @effector/reflect
 
 ```tsx
-import { createFlags, Flags } from "black-flag";
+import { createFlags, Flags } from "black-flags";
 import { variant } from "@effector/reflect";
 import { createStore } from "effector";
 
@@ -79,7 +79,7 @@ const Button = variant({
 ### patronum
 
 ```ts
-import { createFlags, Flags } from "black-flag";
+import { createFlags, Flags } from "black-flags";
 import { createStore } from "effector";
 import { either } from "patronum";
 
