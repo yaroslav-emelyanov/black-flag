@@ -1,11 +1,15 @@
 {
   "name": "black-flags",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "🏴‍☠️ Create feature flags stores using effector",
   "maintainers": [
     "Yaroslav Emelyanov"
   ],
-  "keywords": ["effector", "feature toggle", "feature flags"],
+  "keywords": [
+    "effector",
+    "feature toggle",
+    "feature flags"
+  ],
   "license": "MIT",
   "publishConfig": {
     "access": "public"
